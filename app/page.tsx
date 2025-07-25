@@ -25,6 +25,10 @@ export default function GarudaEyeLanding() {
     element?.scrollIntoView({ behavior: "smooth" })
   }
 
+  const handleRedirect = () => {
+    window.location.href = 'https://v0-garuda-eye-dashboard.vercel.app/';
+  };
+
   return (
     <div className="min-h-screen bg-gray-900 text-white font-inter">
       {/* Header */}
@@ -78,7 +82,7 @@ export default function GarudaEyeLanding() {
               >
                 Login
               </Button>
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white font-medium">Request a Demo</Button>
+              <Button onClick={handleRedirect}  className="bg-blue-500 hover:bg-blue-600 text-white font-medium">Lihat Demo</Button>
               <Button variant="ghost" size="icon" className="md:hidden text-gray-300 hover:text-white">
                 <Menu className="w-5 h-5" />
               </Button>
@@ -530,8 +534,8 @@ export default function GarudaEyeLanding() {
 
             {/* Call-to-Action Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-              <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-8 py-4 text-lg">
-                Request a Demo
+              <Button onClick={handleRedirect} size="lg" className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-8 py-4 text-lg">
+                Lihat Demo
               </Button>
               <Button
                 size="lg"
@@ -1236,10 +1240,11 @@ export default function GarudaEyeLanding() {
             {/* CTA Button */}
             <div className="pt-8">
               <Button
+              onClick={handleRedirect}
                 size="lg"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-12 py-6 text-xl rounded-xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
               >
-                Request a Demo
+                Lihat Demo
               </Button>
             </div>
           </div>
