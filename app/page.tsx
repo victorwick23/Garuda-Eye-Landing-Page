@@ -89,158 +89,424 @@ export default function GarudaEyeLanding() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Calm Animated Neural Network Background */}
+        {/* Enhanced Animated Neural Network Background */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gray-900">
             <svg className="w-full h-full" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
-              {/* Calm Normal Network (98% - Blue Nodes) */}
-
-              {/* Top Layer - Gentle Breathing Animation */}
+              {/* Top Layer - More nodes distributed across the screen */}
               <g className="top-layer-normal">
-                {/* Row 1 */}
-                <circle
-                  cx="100"
-                  cy="80"
-                  r="4"
-                  fill="#3B82F6"
-                  className="node-normal cursor-pointer transition-all duration-500 hover:r-7"
-                  style={{
-                    filter: "drop-shadow(0 0 4px #3B82F6)",
-                    opacity: "0.7",
-                  }}
-                >
-                  <animate attributeName="opacity" values="0.5;0.8;0.5" dur="8s" repeatCount="indefinite" begin="0s" />
-                  <animate attributeName="r" values="3;5;3" dur="12s" repeatCount="indefinite" begin="0s" />
+                {/* Left side nodes */}
+                <circle cx="80" cy="120" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="12s" repeatCount="indefinite" begin="0s" />
+                  <animate attributeName="r" values="2;4;2" dur="16s" repeatCount="indefinite" begin="0s" />
                 </circle>
-                <circle
-                  cx="200"
-                  cy="60"
-                  r="5"
-                  fill="#60A5FA"
-                  className="node-normal cursor-pointer transition-all duration-500 hover:r-8"
-                  style={{
-                    filter: "drop-shadow(0 0 4px #60A5FA)",
-                    opacity: "0.6",
-                  }}
-                >
-                  <animate attributeName="opacity" values="0.4;0.7;0.4" dur="10s" repeatCount="indefinite" begin="1s" />
-                  <animate attributeName="r" values="4;6;4" dur="14s" repeatCount="indefinite" begin="1s" />
+                <circle cx="150" cy="80" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="10s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="3;5;3" dur="14s" repeatCount="indefinite" begin="2s" />
                 </circle>
-                <circle
-                  cx="300"
-                  cy="100"
-                  r="6"
-                  fill="#1D4ED8"
-                  className="node-normal cursor-pointer transition-all duration-500 hover:r-9"
-                  style={{
-                    filter: "drop-shadow(0 0 5px #1D4ED8)",
-                    opacity: "0.8",
-                  }}
-                >
-                  <animate attributeName="opacity" values="0.6;0.9;0.6" dur="9s" repeatCount="indefinite" begin="2s" />
-                  <animate attributeName="r" values="5;7;5" dur="13s" repeatCount="indefinite" begin="2s" />
+                <circle cx="220" cy="140" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="15s" repeatCount="indefinite" begin="4s" />
+                  <animate attributeName="r" values="2;4;2" dur="18s" repeatCount="indefinite" begin="4s" />
                 </circle>
-                <circle
-                  cx="400"
-                  cy="70"
-                  r="4"
-                  fill="#3B82F6"
-                  className="node-normal cursor-pointer transition-all duration-500 hover:r-7"
-                  style={{
-                    filter: "drop-shadow(0 0 4px #3B82F6)",
-                    opacity: "0.7",
-                  }}
-                >
-                  <animate attributeName="opacity" values="0.5;0.8;0.5" dur="11s" repeatCount="indefinite" begin="3s" />
-                  <animate attributeName="r" values="3;5;3" dur="15s" repeatCount="indefinite" begin="3s" />
+                <circle cx="120" cy="200" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="11s" repeatCount="indefinite" begin="1s" />
+                  <animate attributeName="r" values="3;5;3" dur="13s" repeatCount="indefinite" begin="1s" />
                 </circle>
-                <circle
-                  cx="500"
-                  cy="90"
-                  r="5"
-                  fill="#60A5FA"
-                  className="node-normal cursor-pointer transition-all duration-500 hover:r-8"
-                  style={{
-                    filter: "drop-shadow(0 0 4px #60A5FA)",
-                    opacity: "0.6",
-                  }}
-                >
-                  <animate attributeName="opacity" values="0.4;0.7;0.4" dur="7s" repeatCount="indefinite" begin="4s" />
-                  <animate attributeName="r" values="4;6;4" dur="11s" repeatCount="indefinite" begin="4s" />
+                <circle cx="180" cy="250" r="3" fill="#60A5FA" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="13s" repeatCount="indefinite" begin="3s" />
+                  <animate attributeName="r" values="2;4;2" dur="15s" repeatCount="indefinite" begin="3s" />
                 </circle>
 
-                {/* SUSPECTED NODE 1 - Subtle red glow */}
+                {/* Center-left nodes */}
+                <circle cx="300" cy="100" r="5" fill="#1D4ED8" style={{ opacity: "0.7" }}>
+                  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="9s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="4;6;4" dur="12s" repeatCount="indefinite" begin="2s" />
+                </circle>
+                <circle cx="380" cy="160" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="14s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="r" values="3;5;3" dur="17s" repeatCount="indefinite" begin="5s" />
+                </circle>
+                <circle cx="320" cy="220" r="3" fill="#60A5FA" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="16s" repeatCount="indefinite" begin="7s" />
+                  <animate attributeName="r" values="2;4;2" dur="19s" repeatCount="indefinite" begin="7s" />
+                </circle>
+                <circle cx="420" cy="280" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="8s" repeatCount="indefinite" begin="1s" />
+                  <animate attributeName="r" values="3;5;3" dur="11s" repeatCount="indefinite" begin="1s" />
+                </circle>
+
+                {/* Center nodes */}
+                <circle cx="500" cy="90" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="7s" repeatCount="indefinite" begin="4s" />
+                  <animate attributeName="r" values="3;5;3" dur="10s" repeatCount="indefinite" begin="4s" />
+                </circle>
+                <circle cx="580" cy="150" r="5" fill="#3B82F6" style={{ opacity: "0.7" }}>
+                  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="12s" repeatCount="indefinite" begin="6s" />
+                  <animate attributeName="r" values="4;6;4" dur="15s" repeatCount="indefinite" begin="6s" />
+                </circle>
+                <circle cx="520" cy="210" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="18s" repeatCount="indefinite" begin="8s" />
+                  <animate attributeName="r" values="2;4;2" dur="21s" repeatCount="indefinite" begin="8s" />
+                </circle>
+                <circle cx="620" cy="270" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="9s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="3;5;3" dur="12s" repeatCount="indefinite" begin="2s" />
+                </circle>
+
+                {/* Center-right nodes */}
+                <circle cx="720" cy="120" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="11s" repeatCount="indefinite" begin="3s" />
+                  <animate attributeName="r" values="3;5;3" dur="14s" repeatCount="indefinite" begin="3s" />
+                </circle>
+                <circle cx="800" cy="180" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="13s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="r" values="2;4;2" dur="16s" repeatCount="indefinite" begin="5s" />
+                </circle>
+                <circle cx="740" cy="240" r="5" fill="#60A5FA" style={{ opacity: "0.7" }}>
+                  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="10s" repeatCount="indefinite" begin="7s" />
+                  <animate attributeName="r" values="4;6;4" dur="13s" repeatCount="indefinite" begin="7s" />
+                </circle>
+
+                {/* Suspected nodes - strategically placed */}
                 <circle
                   cx="850"
                   cy="220"
-                  r="7"
+                  r="6"
                   fill="#EF4444"
-                  className="node-suspected cursor-pointer transition-all duration-500 hover:r-10"
-                  style={{
-                    filter: "drop-shadow(0 0 6px #EF4444)",
-                    opacity: "0.8",
-                  }}
+                  style={{ opacity: "0.7", filter: "drop-shadow(0 0 4px #EF4444)" }}
                 >
-                  <animate attributeName="opacity" values="0.6;0.9;0.6" dur="6s" repeatCount="indefinite" begin="2s" />
-                  <animate attributeName="r" values="6;8;6" dur="8s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="6s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="5;7;5" dur="8s" repeatCount="indefinite" begin="2s" />
+                </circle>
+                <circle
+                  cx="1100"
+                  cy="160"
+                  r="5"
+                  fill="#DC2626"
+                  style={{ opacity: "0.6", filter: "drop-shadow(0 0 3px #DC2626)" }}
+                >
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="7s" repeatCount="indefinite" begin="4s" />
+                  <animate attributeName="r" values="4;6;4" dur="9s" repeatCount="indefinite" begin="4s" />
                 </circle>
 
-                {/* More nodes... */}
-                <circle cx="1200" cy="100" r="6" fill="#1D4ED8" style={{ opacity: "0.6" }}>
-                  <animate attributeName="opacity" values="0.4;0.7;0.4" dur="12s" repeatCount="indefinite" begin="5s" />
+                {/* Right side nodes */}
+                <circle cx="1200" cy="100" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="12s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="r" values="3;5;3" dur="15s" repeatCount="indefinite" begin="5s" />
                 </circle>
-                <circle cx="1500" cy="90" r="5" fill="#60A5FA" style={{ opacity: "0.5" }}>
-                  <animate attributeName="opacity" values="0.3;0.6;0.3" dur="15s" repeatCount="indefinite" begin="7s" />
+                <circle cx="1280" cy="160" r="3" fill="#60A5FA" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="14s" repeatCount="indefinite" begin="7s" />
+                  <animate attributeName="r" values="2;4;2" dur="17s" repeatCount="indefinite" begin="7s" />
+                </circle>
+                <circle cx="1320" cy="220" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="16s" repeatCount="indefinite" begin="9s" />
+                  <animate attributeName="r" values="3;5;3" dur="19s" repeatCount="indefinite" begin="9s" />
+                </circle>
+                <circle cx="1400" cy="140" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="18s"
+                    repeatCount="indefinite"
+                    begin="11s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="21s" repeatCount="indefinite" begin="11s" />
+                </circle>
+
+                {/* Far right nodes */}
+                <circle cx="1500" cy="90" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="15s" repeatCount="indefinite" begin="7s" />
+                  <animate attributeName="r" values="3;5;3" dur="18s" repeatCount="indefinite" begin="7s" />
+                </circle>
+                <circle cx="1580" cy="180" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="20s"
+                    repeatCount="indefinite"
+                    begin="13s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="23s" repeatCount="indefinite" begin="13s" />
+                </circle>
+                <circle cx="1650" cy="120" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.4;0.8;0.4"
+                    dur="17s"
+                    repeatCount="indefinite"
+                    begin="15s"
+                  />
+                  <animate attributeName="r" values="3;5;3" dur="20s" repeatCount="indefinite" begin="15s" />
                 </circle>
               </g>
 
-              {/* Middle Layer */}
+              {/* Middle Layer - More distributed nodes */}
               <g className="middle-layer-normal">
-                <circle cx="150" cy="300" r="5" fill="#60A5FA" style={{ opacity: "0.6" }}>
-                  <animate attributeName="opacity" values="0.4;0.7;0.4" dur="11s" repeatCount="indefinite" begin="1s" />
+                {/* Left middle */}
+                <circle cx="100" cy="350" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="11s" repeatCount="indefinite" begin="1s" />
+                  <animate attributeName="r" values="3;5;3" dur="14s" repeatCount="indefinite" begin="1s" />
                 </circle>
-                <circle cx="350" cy="320" r="6" fill="#1D4ED8" style={{ opacity: "0.7" }}>
-                  <animate attributeName="opacity" values="0.5;0.8;0.5" dur="13s" repeatCount="indefinite" begin="3s" />
+                <circle cx="200" cy="380" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="13s" repeatCount="indefinite" begin="3s" />
+                  <animate attributeName="r" values="2;4;2" dur="16s" repeatCount="indefinite" begin="3s" />
+                </circle>
+                <circle cx="150" cy="420" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="15s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="r" values="3;5;3" dur="18s" repeatCount="indefinite" begin="5s" />
                 </circle>
 
-                {/* SUSPECTED NODE 2 */}
+                {/* Center middle */}
+                <circle cx="350" cy="320" r="5" fill="#1D4ED8" style={{ opacity: "0.7" }}>
+                  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="13s" repeatCount="indefinite" begin="3s" />
+                  <animate attributeName="r" values="4;6;4" dur="16s" repeatCount="indefinite" begin="3s" />
+                </circle>
+                <circle cx="450" cy="380" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="10s" repeatCount="indefinite" begin="6s" />
+                  <animate attributeName="r" values="3;5;3" dur="13s" repeatCount="indefinite" begin="6s" />
+                </circle>
+                <circle cx="550" cy="340" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="17s" repeatCount="indefinite" begin="8s" />
+                  <animate attributeName="r" values="2;4;2" dur="20s" repeatCount="indefinite" begin="8s" />
+                </circle>
+                <circle cx="650" cy="400" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="12s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="3;5;3" dur="15s" repeatCount="indefinite" begin="2s" />
+                </circle>
+
+                {/* Right middle */}
+                <circle cx="750" cy="360" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="14s" repeatCount="indefinite" begin="4s" />
+                  <animate attributeName="r" values="3;5;3" dur="17s" repeatCount="indefinite" begin="4s" />
+                </circle>
+                <circle cx="850" cy="320" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="16s" repeatCount="indefinite" begin="6s" />
+                  <animate attributeName="r" values="2;4;2" dur="19s" repeatCount="indefinite" begin="6s" />
+                </circle>
+
+                {/* Suspected middle node */}
                 <circle
                   cx="1270"
                   cy="440"
-                  r="8"
+                  r="7"
                   fill="#DC2626"
-                  style={{ opacity: "0.8", filter: "drop-shadow(0 0 6px #DC2626)" }}
+                  style={{ opacity: "0.8", filter: "drop-shadow(0 0 5px #DC2626)" }}
                 >
-                  <animate attributeName="opacity" values="0.6;0.9;0.6" dur="7s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="opacity" values="0.6;1.0;0.6" dur="7s" repeatCount="indefinite" begin="5s" />
+                  <animate attributeName="r" values="6;8;6" dur="9s" repeatCount="indefinite" begin="5s" />
                 </circle>
 
-                <circle cx="1450" cy="340" r="5" fill="#60A5FA" style={{ opacity: "0.5" }}>
-                  <animate attributeName="opacity" values="0.3;0.6;0.3" dur="9s" repeatCount="indefinite" begin="6s" />
+                {/* Far right middle */}
+                <circle cx="1450" cy="340" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="9s" repeatCount="indefinite" begin="6s" />
+                  <animate attributeName="r" values="3;5;3" dur="12s" repeatCount="indefinite" begin="6s" />
+                </circle>
+                <circle cx="1550" cy="380" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="18s"
+                    repeatCount="indefinite"
+                    begin="10s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="21s" repeatCount="indefinite" begin="10s" />
                 </circle>
               </g>
 
-              {/* Connection Lines - Very Subtle */}
-              <g className="connection-lines opacity-10">
-                <line x1="100" y1="80" x2="200" y2="60" stroke="#3B82F6" strokeWidth="1">
-                  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="15s" repeatCount="indefinite" />
+              {/* Bottom Layer - Additional nodes */}
+              <g className="bottom-layer-normal">
+                <circle cx="120" cy="500" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="19s" repeatCount="indefinite" begin="2s" />
+                  <animate attributeName="r" values="2;4;2" dur="22s" repeatCount="indefinite" begin="2s" />
+                </circle>
+                <circle cx="280" cy="480" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="16s" repeatCount="indefinite" begin="4s" />
+                  <animate attributeName="r" values="3;5;3" dur="19s" repeatCount="indefinite" begin="4s" />
+                </circle>
+                <circle cx="420" cy="520" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="21s" repeatCount="indefinite" begin="6s" />
+                  <animate attributeName="r" values="2;4;2" dur="24s" repeatCount="indefinite" begin="6s" />
+                </circle>
+                <circle cx="580" cy="490" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="13s" repeatCount="indefinite" begin="8s" />
+                  <animate attributeName="r" values="3;5;3" dur="16s" repeatCount="indefinite" begin="8s" />
+                </circle>
+                <circle cx="720" cy="510" r="3" fill="#60A5FA" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="17s"
+                    repeatCount="indefinite"
+                    begin="10s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="20s" repeatCount="indefinite" begin="10s" />
+                </circle>
+                <circle cx="880" cy="480" r="4" fill="#1D4ED8" style={{ opacity: "0.6" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.4;0.8;0.4"
+                    dur="14s"
+                    repeatCount="indefinite"
+                    begin="12s"
+                  />
+                  <animate attributeName="r" values="3;5;3" dur="17s" repeatCount="indefinite" begin="12s" />
+                </circle>
+                <circle cx="1020" cy="520" r="3" fill="#3B82F6" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="20s"
+                    repeatCount="indefinite"
+                    begin="14s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="23s" repeatCount="indefinite" begin="14s" />
+                </circle>
+                <circle cx="1180" cy="490" r="4" fill="#60A5FA" style={{ opacity: "0.6" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.4;0.8;0.4"
+                    dur="11s"
+                    repeatCount="indefinite"
+                    begin="16s"
+                  />
+                  <animate attributeName="r" values="3;5;3" dur="14s" repeatCount="indefinite" begin="16s" />
+                </circle>
+                <circle cx="1320" cy="510" r="3" fill="#1D4ED8" style={{ opacity: "0.5" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.3;0.7;0.3"
+                    dur="18s"
+                    repeatCount="indefinite"
+                    begin="18s"
+                  />
+                  <animate attributeName="r" values="2;4;2" dur="21s" repeatCount="indefinite" begin="18s" />
+                </circle>
+                <circle cx="1480" cy="480" r="4" fill="#3B82F6" style={{ opacity: "0.6" }}>
+                  <animate
+                    attributeName="opacity"
+                    values="0.4;0.8;0.4"
+                    dur="15s"
+                    repeatCount="indefinite"
+                    begin="20s"
+                  />
+                  <animate attributeName="r" values="3;5;3" dur="18s" repeatCount="indefinite" begin="20s" />
+                </circle>
+              </g>
+
+              {/* Subtle Connection Lines */}
+              <g className="connection-lines opacity-5">
+                {/* Horizontal connections */}
+                <line x1="150" y1="80" x2="300" y2="100" stroke="#3B82F6" strokeWidth="0.5">
+                  <animate attributeName="opacity" values="0.05;0.15;0.05" dur="20s" repeatCount="indefinite" />
                 </line>
-                <line x1="200" y1="60" x2="300" y2="100" stroke="#60A5FA" strokeWidth="1">
-                  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="18s" repeatCount="indefinite" begin="2s" />
+                <line x1="380" y1="160" x2="580" y2="150" stroke="#60A5FA" strokeWidth="0.5">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.15;0.05"
+                    dur="25s"
+                    repeatCount="indefinite"
+                    begin="3s"
+                  />
                 </line>
-                <line x1="850" y1="220" x2="1270" y2="440" stroke="#EF4444" strokeWidth="2">
-                  <animate attributeName="opacity" values="0.2;0.4;0.2" dur="12s" repeatCount="indefinite" begin="3s" />
+                <line x1="720" y1="120" x2="850" y2="220" stroke="#1D4ED8" strokeWidth="0.5">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.15;0.05"
+                    dur="18s"
+                    repeatCount="indefinite"
+                    begin="5s"
+                  />
+                </line>
+                <line x1="1200" y1="100" x2="1400" y2="140" stroke="#3B82F6" strokeWidth="0.5">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.15;0.05"
+                    dur="22s"
+                    repeatCount="indefinite"
+                    begin="7s"
+                  />
+                </line>
+
+                {/* Vertical connections */}
+                <line x1="350" y1="320" x2="280" y2="480" stroke="#60A5FA" strokeWidth="0.5">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.15;0.05"
+                    dur="30s"
+                    repeatCount="indefinite"
+                    begin="2s"
+                  />
+                </line>
+                <line x1="650" y1="400" x2="720" y2="510" stroke="#1D4ED8" strokeWidth="0.5">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.15;0.05"
+                    dur="28s"
+                    repeatCount="indefinite"
+                    begin="4s"
+                  />
+                </line>
+
+                {/* Suspected connections - slightly more visible */}
+                <line x1="850" y1="220" x2="1270" y2="440" stroke="#EF4444" strokeWidth="1" opacity="0.1">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.2;0.05"
+                    dur="12s"
+                    repeatCount="indefinite"
+                    begin="3s"
+                  />
+                </line>
+                <line x1="1100" y1="160" x2="1270" y2="440" stroke="#DC2626" strokeWidth="1" opacity="0.1">
+                  <animate
+                    attributeName="opacity"
+                    values="0.05;0.2;0.05"
+                    dur="15s"
+                    repeatCount="indefinite"
+                    begin="6s"
+                  />
                 </line>
               </g>
 
-              {/* Gentle Data Packets */}
+              {/* Gentle Data Packets - More distributed */}
               <g className="data-packets">
-                <circle r="2" fill="#60A5FA" className="opacity-40">
-                  <animateMotion dur="20s" repeatCount="indefinite" path="M100,80 Q400,200 800,340" />
-                  <animate attributeName="opacity" values="0;0.5;0.5;0" dur="20s" repeatCount="indefinite" />
+                <circle r="1.5" fill="#60A5FA" className="opacity-30">
+                  <animateMotion
+                    dur="25s"
+                    repeatCount="indefinite"
+                    path="M100,80 Q400,200 800,340 Q1200,400 1500,300"
+                  />
+                  <animate attributeName="opacity" values="0;0.4;0.4;0" dur="25s" repeatCount="indefinite" />
                 </circle>
-                <circle r="3" fill="#EF4444" className="opacity-50">
+                <circle r="2" fill="#3B82F6" className="opacity-25">
+                  <animateMotion
+                    dur="30s"
+                    repeatCount="indefinite"
+                    path="M1600,100 Q1200,250 800,180 Q400,350 100,450"
+                  />
+                  <animate attributeName="opacity" values="0;0.3;0.3;0" dur="30s" repeatCount="indefinite" />
+                </circle>
+                <circle r="1.5" fill="#1D4ED8" className="opacity-35">
+                  <animateMotion
+                    dur="20s"
+                    repeatCount="indefinite"
+                    path="M300,500 Q600,300 900,200 Q1200,150 1500,400"
+                  />
+                  <animate attributeName="opacity" values="0;0.4;0.4;0" dur="20s" repeatCount="indefinite" />
+                </circle>
+
+                {/* Suspected data packets */}
+                <circle r="2.5" fill="#EF4444" className="opacity-40">
                   <animateMotion dur="15s" repeatCount="indefinite" path="M850,220 Q1100,350 1270,440" />
-                  <animate attributeName="opacity" values="0;0.6;0.6;0" dur="15s" repeatCount="indefinite" />
+                  <animate attributeName="opacity" values="0;0.5;0.5;0" dur="15s" repeatCount="indefinite" />
+                </circle>
+                <circle r="2" fill="#DC2626" className="opacity-35">
+                  <animateMotion
+                    dur="18s"
+                    repeatCount="indefinite"
+                    path="M1100,160 Q950,300 850,220 Q1150,380 1270,440"
+                  />
+                  <animate attributeName="opacity" values="0;0.4;0.4;0" dur="18s" repeatCount="indefinite" />
                 </circle>
               </g>
             </svg>
@@ -1039,7 +1305,7 @@ export default function GarudaEyeLanding() {
                 berkelanjutan.
               </p>
               <div className="text-xs text-gray-500">
-                © 2025 Garuda Eye PT Prometheus Berbagi Teknologi.
+                © 2025 Garuda Eye - PT Prometheus Berbagi Teknologi.
                 <br />
                 All Rights Reserved.
               </div>
