@@ -684,12 +684,12 @@ export default function GarudaEyeLanding() {
 
             {/* Right Column - Visual */}
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 flex items-center justify-center overflow-hidden">
+              <div className="aspect-square rounded-2xl p-8 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/online-gambling-network.png"
+                  src="/images/2.jpeg"
                   alt="Complex Network Visualization of Online Gambling Criminal Networks"
-                  width={400}
-                  height={400}
+                  width={800}
+                  height={800}
                   className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
                   priority
                   onError={(e) => {
@@ -1094,7 +1094,7 @@ export default function GarudaEyeLanding() {
             <div className="relative">
               <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-4 border border-gray-700 overflow-hidden">
                 <Image
-                  src="/images/garuda-eye-dashboard.png"
+                  src="/images/1.webp"
                   alt="Garuda Eye Dashboard Interface showing AML/CFT Network Intelligence"
                   width={800}
                   height={600}
